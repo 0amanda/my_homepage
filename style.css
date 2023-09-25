@@ -35,6 +35,8 @@ img{
     z-index: 3;
 }
 
+
+
 #neokiagif{
     width: 450px;
     top: 100px;
@@ -43,6 +45,19 @@ img{
     transition: transform .2s;
 }
 
+#neokiasticker{
+    width: 200px;
+    z-index: 10;
+}
+
+#enter{
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    margin-left: -45px;
+    z-index: 5;
+  
+}
 #enterbutton{
     position:absolute;
     top: 200px;
@@ -64,10 +79,28 @@ img{
     
 }
 
-#pentagramgid{
+#pentagramgif{
+    position: absolute;
+    width: 200px;
+}
+#pentagramgif2{
+    position: absolute;
+    width: 200px;
+    right: 50px;
+}
+
+#silverflower{
+    position: absolute;
+    top: 150px;
+    left: 100px;
     width: 200px;
 }
 
+#glitterheart{
+    position: absolute;
+    right: 100px;
+    top: 400px;
+}
 
 #redborder{
     position: absolute;
@@ -81,7 +114,6 @@ img{
     position:absolute;
     mix-blend-mode:screen;
     top: 600px;
-
     width: 50%;
 
 }
@@ -101,4 +133,29 @@ img{
 #neokiagif:hover {
     transform: scale(1.2);
 }
+
+:root {
+    --width: 200px;
+    --x-speed: 13s;
+    --y-speed: 7s;
+    --transition-speed: 2.2s;
+  }
+
+.x {
+    animation: x var(--x-speed) linear infinite alternate;
+  }
+  .y {
+    animation: y var(--y-speed) linear infinite alternate;
+  }
+  
+  @keyframes x {
+    100% {
+      transform: translateX(calc(100vw - var(--width)));
+    }
+  }
+  @keyframes y {
+    100% {
+      transform: translateY(calc(100vh - var(--width)));
+    }
+  }
 
