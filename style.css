@@ -45,6 +45,13 @@ img{
     transition: transform .2s;
 }
 
+#gameboy{
+    position: absolute;
+    width: 300px;
+    top: 1000px;
+    right: 200px;
+    box-shadow: 0px 0px 50px hsl(194, 67%, 75%);
+}
 #neokiasticker{
     width: 200px;
     z-index: 10;
