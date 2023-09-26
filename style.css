@@ -52,14 +52,6 @@ img{
     transform: scale(1.2);
 }
 
-.gameboy{
-    position: absolute;
-    width: 300px;
-    top: 1000px;
-    right: 200px;
-    box-shadow: 0px 0px 50px hsl(194, 67%, 75%);
-}
-
 #neokiasticker{
     width: 200px;
     z-index: 10;
@@ -169,20 +161,36 @@ position: absolute;
 
 }
 
-.inspiration{
+.inspocontainer{
     position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
     top: 1000px;
-    left: 3rem;
+    width: 100vw;
+    left: 140px;
+    z-index: 5;
+}
+
+.inspiration{
+    position: static;
     background-color: rgba(200, 224, 240, 0.877);
     width: 500px;
     height: 500px;
-    z-index: 5;
     border-radius: 5%;
 
 }
 
 .inspo{
+    position: static;
+}
 
+.gameboy{
+    position: static;
+    top: 0px;
+
+    height: 500px;
+    box-shadow: 0px 0px 50px hsl(194, 67%, 75%);
 }
 
 :root {
