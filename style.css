@@ -45,6 +45,10 @@ img{
     transition: transform .2s;
 }
 
+#neokiagif:hover {
+    transform: scale(1.2);
+}
+
 #gameboy{
     position: absolute;
     width: 300px;
@@ -52,6 +56,7 @@ img{
     right: 200px;
     box-shadow: 0px 0px 50px hsl(194, 67%, 75%);
 }
+
 #neokiasticker{
     width: 200px;
     z-index: 10;
@@ -66,11 +71,13 @@ img{
   
 }
 #enterbutton{
+    box-shadow: 0px 0px 50px hsl(194, 67%, 75%);
     position:absolute;
     top: 200px;
     left: 50%; /*half the container width*/
     margin-left: -150px; 
-    mix-blend-mode:luminosity
+    mix-blend-mode:luminosity;
+
 }
 
 #flowergif{
@@ -137,9 +144,7 @@ img{
     top: 4px;
     left: 51%;
 }
-#neokiagif:hover {
-    transform: scale(1.2);
-}
+
 
 :root {
     --width: 200px;
