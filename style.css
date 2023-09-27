@@ -219,6 +219,14 @@ position: absolute;
     z-index: -1;
 }
 
+.arrow{
+    position: absolute;
+    left: 5px;
+    width: 100px;
+    mix-blend-mode:exclusion
+
+}
+
 .stars{ 
     position: absolute;
     top: 100px;
