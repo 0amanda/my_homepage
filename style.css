@@ -89,10 +89,8 @@ img{
     transition: transform 1s;
 }
 
-.graveyard:hover {
+#enterbutton:hover .graveyard {
     box-shadow: 0px 0px 50px hsl(194, 67%, 75%);
-    
-
 }
 
 #flowergif{
