@@ -109,6 +109,18 @@ img{
     
 }
 
+.gothgirl{
+    left: 300px;
+    top: 50px;
+    width: 100px;
+}
+
+.rockingstar{
+top: 400px;
+width: 200px;
+left: 10px;
+}
+
 #pentagramgif{
     position: absolute;
     width: 200px;
@@ -194,9 +206,22 @@ img{
 position: absolute;
 }
 
+.pinkstar{
+    top: 1770px;
+    right: 170px;
+    z-index: 5;
+
+}
+
 .skatergirl{
     top: 2000px;
     right: 100px;
+    z-index: 6;
+
+}
+.goth{
+    top: 1800px;
+    left: 150px;
     z-index: 6;
 
 }
