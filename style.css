@@ -272,7 +272,7 @@ position: absolute;
 }
 
 .monstercanpink{
-    top: 1600px;
+    top: 1700px;
     width: 100px;
     left: 100px;
 }
@@ -438,10 +438,26 @@ position: absolute;
     transform: translateX(-50%);
   }
 
+  .chain3{
+    top: 1550px;
+    right: 10px;
+  }
+
+  .chain4{
+    top: 1665px;
+    left: 10px;
+
+  }
+
   .chain5{
     top:1665px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .chain6{
+    top:1665px;
+    right: 10px ;
   }
 
 
