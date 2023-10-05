@@ -460,6 +460,34 @@ position: absolute;
     right: 10px ;
   }
 
+  .cross5{
+    top: 2360px;
+    left: 51%;
+  }
+
+  .cross6{
+    top: 2360px;
+  }
+
+.webring{
+    position: absolute;
+    top: 2400px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 50px;
+    font-family: 'DotGothic16', sans-serif;
+    border: 4px dashed purple;
+    
+
+}
+
+.webring a{
+    color: purple;
+}
 
   @keyframes slide{
     0% {left: 0px;}
